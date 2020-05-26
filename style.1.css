@@ -20,16 +20,17 @@ body{
 .wrapper{
     width: 100vw;
     margin: auto;
-    align-content: center;
+    display: grid;
+    justify-content: center;
 }
 
 .grid{
-    margin: auto;
     width: 100vw;
     align-content: center;
     display: inline-grid;
     grid-template-columns: 200px 200px;
-    grid-template-rows: 200px 200px 200px 200px;   
+    grid-template-rows: 200px 200px 200px 200px;  
+    justify-content: center;  
 }
 
 .beschrijving{
