@@ -1,0 +1,110 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.headImage{
+    background-image: url(/images/19.jpg);
+    height: 40vh;
+    width: 100vw;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+} 
+
+.title{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper{
+    width: 100vw;
+    margin: auto;
+    align-content: center;
+}
+
+.grid{
+    margin: auto;
+    width: 100vw;
+    align-content: center;
+    display: inline-grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px 200px 200px;   
+}
+
+.beschrijving{
+display: flex;
+flex-direction: row;
+
+}
+
+.icons{
+
+}
+
+.bouwjaar{
+background-color: #6193aa;
+color: #FFF;
+border-radius: 50%;
+height: 50px;
+width: 50px;
+text-align: center;
+line-height: 25px;
+}
+
+.wonen{
+    background-color: #6193aa;
+    color: #FFF;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.kamers{
+    background-color: #6193aa;
+    color: #FFF;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.perceel{
+    background-color: #6193aa;
+    color: #FFF;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.tekst{
+    text-align: center;
+}
+
+.display img{
+    height: 100px !important;
+    width: 100px !important;
+}
+
+
+.gallery img {
+    transition: 1s;
+    padding: 15px;
+    height: 200px;
+    width: 200px;
+}
+.gallery img:hover{
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+.hide {
+    height: 10px;
+    min-height: 100%;
+    overflow: hidden;
+}
+
