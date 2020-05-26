@@ -28,19 +28,19 @@ body{
     width: 100vw;
     align-content: center;
     display: inline-grid;
-    grid-template-columns: 200px 200px;
-    grid-template-rows: 200px 200px 200px 200px;  
+    grid-template-columns: 20vw 20vw;
+    grid-template-rows: 20vw 20vw 20vw 20vw;  
     justify-content: center;  
+    grid-template-areas: 
+      " | . | none | ..."
+      "...";
+
+      
 }
 
 .beschrijving{
 display: flex;
 flex-direction: row;
-
-}
-
-.icons{
-
 }
 
 .bouwjaar{
